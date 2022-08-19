@@ -6,10 +6,12 @@ o.shipdate,
 o.shipmode,
 o.ordersellingprice - o.ordercostprice as orderprofit,
 --from customer
+c.customerid,
 c.customername,
 c.segement,
 c.country,
 -- from product
+p.productid,
 p.category,
 p.productname,
 p.subcategory
